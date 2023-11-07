@@ -2,7 +2,7 @@
 
 ## [winget更新脚本](Powershell\Update-SelectedWinGetPackages.ps1)
 用于手动选择需要更新的软件，并批量更新
-首先需要安装 Microsoft.WinGet.Client 模块
+首先需要安装 Microsoft.WinGet.Client 模块,详见[PowerShell Gallery](https://www.powershellgallery.com/packages/Microsoft.WinGet.Client)
 ```powershell
 Install-Module -Name Microsoft.WinGet.Client
 ```
